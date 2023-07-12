@@ -47,7 +47,7 @@
 	},
 	"devDependencies": {
 		"@clack/prompts": "^0.6.3",
-		"@octokit/request-error": "^3.0.3",
+		"@octokit/request-error": "^5.0.0",
 		"@types/eslint": "^8.37.0",
 		"@types/js-yaml": "^4.0.5",
 		"@types/prettier": "^2.7.2",
