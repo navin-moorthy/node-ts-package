@@ -1,3 +1,9 @@
+# 0.1.0 (2024-04-03)
+
+### Features
+
+- **package:** 🔖 bump package version ([0e01963](https://github.com/navin-moorthy/node-ts-package/commit/0e01963cfaf71ca6557ec7b6b2f899a77eff93a7))
+
 # Changelog
 
 ### [1.27.12](https://github.com/JoshuaKGoldberg/template-typescript-node-package/compare/v1.27.11...v1.27.12) (2022-12-31)
