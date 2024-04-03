@@ -1,8 +1,9 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"automerge": true,
+	"ignoreDeps": ["codecov/codecov-action"],
 	"internalChecksFilter": "strict",
 	"labels": ["dependencies"],
-	"postUpdateOptions": ["pnpmDedupe"],
-	"stabilityDays": 3
+	"minimumReleaseAge": "3 days",
+	"postUpdateOptions": ["pnpmDedupe"]
 }

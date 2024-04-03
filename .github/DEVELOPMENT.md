@@ -3,8 +3,8 @@
 After [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo) and [installing pnpm](https://pnpm.io/installation):
 
 ```shell
-git clone https://github.com/<your-name-here>/template-typescript-node-package
-cd template-typescript-node-package
+git clone https://github.com/<your-name-here>/node-ts-package
+cd node-ts-package
 pnpm install
 ```
 
@@ -66,6 +66,22 @@ Calls to `console.log`, `console.warn`, and other console methods will cause a t
 
 This repository includes a [VS Code launch configuration](https://code.visualstudio.com/docs/editor/debugging) for debugging unit tests.
 To launch it, open a test file, then run _Debug Current Test File_ from the VS Code Debug panel (or press F5).
+
+## Type Checking
+
+You should be able to see suggestions from [TypeScript](https://typescriptlang.org) in your editor for all open files.
+
+However, it can be useful to run the TypeScript command-line (`tsc`) to type check all files in `src/`:
+
+```shell
+pnpm tsc
+```
+
+Add `--watch` to keep the type checker running in a watch mode that updates the display as you save files:
+
+```shell
+pnpm tsc --watch
+```
 
 ## The Hydration Script
 
