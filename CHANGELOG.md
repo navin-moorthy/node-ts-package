@@ -1,3 +1,9 @@
+# [0.2.0](https://github.com/navin-moorthy/node-ts-package/compare/0.1.0...0.2.0) (2024-04-03)
+
+### Features
+
+- **package:** 🔖 bump package version ([89a63c5](https://github.com/navin-moorthy/node-ts-package/commit/89a63c59b81ef64a68b61fd4da8831227f0a372c))
+
 # 0.1.0 (2024-04-03)
 
 ### Features
